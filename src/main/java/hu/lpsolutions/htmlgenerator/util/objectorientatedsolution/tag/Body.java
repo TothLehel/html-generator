@@ -8,7 +8,7 @@ public class Body extends ElementHolder<HtmlBuilder> {
 
 
     public Body(HtmlBuilder parent) {
-        super("\n<body>\n\t", "\n</body>", parent);
+        super("<body>", "</body>", parent);
     }
 
     public Body heading(int level, String text) {
